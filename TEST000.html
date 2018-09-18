@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=" utf-8">
+    <title>添加checkbox复选框</title>
+</head>
+<body>
+<audio id="sound" autoplay="autoplay">
+    document.getElementById("sound").src="<%=basePath%>admin/media/global.wav";
+</audio>
+
+<script>
+    Notification.requestPermission(function (permission) {
+        var notification = new Notification('Here I am!', {
+            body: 'Thanks for clicking that button. Hope you liked.',
+            icon: 'https://cdn2.iconfinder.com/data/icons/ios-7-style-metro-ui-icons/512/MetroUI_HTML5.png',
+            dir: 'auto'
+        });
+    });
+</script>
+
+</body>
+
+
+</html>
